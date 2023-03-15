@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  border: 1px solid black;
+  height: 150px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+#list-item {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 20%;
+  padding-top: 20px;
+}
+
+.item-list {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
